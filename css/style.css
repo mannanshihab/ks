@@ -1,0 +1,68 @@
+@import url(bootstrap.min.css);
+@import url(all.min.css);
+/*@import url(animate.css);*/
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('font-awesome.min.css');
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family:Galada-Regular;
+	color: #222;
+}
+
+	.navbar-toggler 
+	{
+	     color: none !important; 
+	     border: none !important; 
+	}
+	.navbar-light .menu-btn  
+	{
+		position: absolute;
+		z-index: 3;
+		right: 15px;
+		top: 15px;
+	}
+	.navbar-light .btn-line 
+	{
+		width: 30px;
+		height: 3px;
+		margin: 0 0 5px 0;
+		background: #33cccc;
+	}
+	.navbar-light .navbar-nav .nav-link{
+	    color: #33cccc;
+	}
+	.navbar .fa {
+		font-size: 2rem;
+	}
+
+	.text-color{
+		color: #33cccc;
+
+	}
+
+	.btn-secondary{
+		background-color: #33cccc !important;
+		color:#fff;
+		border:none;
+	}
+	.col-md-3 a{
+		color: #33cccc;
+		text-decoration: none;
+	}
+
+	.col-md-3 a:hover{
+		color: #000;
+	}
+
+	.card-title a{
+		text-decoration: none;
+		color: #33cccc; 
+	}
+	.card-title a:hover{
+		color: #000;
+	}
+	footer{
+		height:50px;
+	}
